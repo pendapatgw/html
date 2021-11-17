@@ -1,0 +1,118 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+/* buat segala macam pengaturan awal */
+@font-face {
+  font-family: untuk-atas;
+  src: url(/font/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: untuk-tengah;
+  src: url(/font/texgyreadventor-regular.otf);
+}
+body {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* sampe sini */
+
+/* pengaturan section */
+section {
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  margin: 50px 0;
+  border-radius: 10px;
+}
+/* selesai disini */
+
+/* buat header */
+header {
+  font-family: "untuk-atas";
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.gambar1 {
+  height: 200px;
+  width: 200px;
+  margin: 50px;
+}
+header .kanan {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.isi {
+  margin: 2rem 0;
+}
+.isi2 {
+  margin: 2rem 0;
+}
+/* selesai disini */
+
+/* buat tabel */
+th {
+  text-align: left;
+}
+table {
+  margin: 0 50%;
+  font-family: "untuk-atas";
+}
+/* selesai disini */
+
+/* buat main */
+main {
+  font-family: "untuk-tengah";
+}
+/* selesai disini */
+
+/* buat footer */
+footer {
+  display: flex;
+  margin: 2rem 3rem;
+}
+video {
+  width: 100%;
+  height: 200;
+}
+/* buat galeri */
+.galeri {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 70%;
+  border: 1px solid;
+  margin-left: 2rem;
+}
+.gambar2 {
+  width: 5rem;
+  height: 5rem;
+  padding: 0px;
+  margin: 10px;
+}
+/* selesai disini */
+/* buat .media */
+.media {
+  display: flex;
+  width: 33%;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.media ul {
+  list-style-image: url(/galeri/icon2.png);
+  margin-left: 3rem;
+}
+
+.media ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "untuk-tengah";
+  color: black;
+}
+/* selesai disini */
